@@ -1,11 +1,11 @@
 <?php
 class first{
     public $status;
-    // magical functions
+
+    //magic functions
+
     public function __construct($status){
         $this->status=$status;
-     //   echo " work is in  ".$this->status;
-    //    echo "<br>";
     }
     public function __destruct(){
         echo " work is in ".$this->status;
@@ -18,6 +18,11 @@ class first{
         echo "<br>";
     }
     }
+    //making object of first class and passing argument
+
 $first=new first("progress");
+
+//will search for name if does not found then call get function
+
 $first->Name;
 ?>
