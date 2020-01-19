@@ -32,6 +32,9 @@
 </html>
 
 <?php
+
+//it will show result on same page
+
 extract($_POST);
 
 //making class first
