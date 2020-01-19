@@ -33,7 +33,7 @@
 
 <?php
 
-//it will show result on same page
+//it will show output on same page
 
 extract($_POST);
 
