@@ -12,7 +12,7 @@ class first{
 }
 class second extends first{
     function display(){
-        echo "My name is Shiv";
+        echo "My name is Shivshankar";
     }
 }
 $show=new second();
