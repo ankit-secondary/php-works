@@ -6,7 +6,7 @@ class first{
     $this->display();
     }
     function display(){
-        echo "My name is Ankit";
+        echo "My name is Ankit kumar";
         echo "<br>";
     }
 }
