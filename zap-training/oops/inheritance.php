@@ -24,7 +24,7 @@ $contain=new company();
  echo $contain->get_Name();
  echo "<br>";
 
- //  used 2nd class for inheritance
+ //  used 2nd class for inheritance.
 
  class client extends company{
      public $name;
